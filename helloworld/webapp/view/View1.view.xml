@@ -1,0 +1,7 @@
+<mvc:View controllerName="com.gyansys.helloworld.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <Label text="This is a Sample Application"/>
+    </Page>
+</mvc:View>
