@@ -5,10 +5,8 @@ name: Fiori App Deploy
 
 
 on:
-	#to trigger when pull request to main branch
   pull_request:
     branches: [ "main" ]
-  #to run manually on the Actions Tab
   workflow_dispatch:
 
 jobs:
